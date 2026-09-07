@@ -1,5 +1,14 @@
 # PDF Editor — changelog
 
+## 0.1.1 — 2026-09-07
+
+Adds an About dialog — reach it from the version chip in the top-right corner
+or the illustration on the start screen. It shows the version, links to
+unsubbedware.com, and has a **Check for updates** button.
+
+Also a redrawn start screen: an illustration and the app name in place of the
+plain document icon.
+
 ## 0.1.0 — 2026-09-07
 
 First public beta.
