@@ -1,5 +1,14 @@
 # PDF Editor — changelog
 
+## 0.1.6 — 2026-09-09
+
+**Installer:** re-running the installer over an existing copy now offers an
+**Update** option (selected automatically when it detects an older version
+already installed) alongside Full install and Unzip.
+
+Background color tweak, mostly to give this release something visible to
+confirm the in-app updater actually applied it.
+
 ## 0.1.5 — 2026-09-09
 
 Fixes the in-app updater itself: the app could still be closing when the
