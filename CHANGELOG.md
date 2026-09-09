@@ -1,5 +1,10 @@
 # PDF Editor — changelog
 
+## 0.1.7 — 2026-09-09
+
+Reverts the background color from the last release — that was a deliberate
+test marker to confirm the updater fix, not a real design change.
+
 ## 0.1.6 — 2026-09-09
 
 **Installer:** re-running the installer over an existing copy now offers an
