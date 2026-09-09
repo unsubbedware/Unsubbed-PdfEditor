@@ -1,5 +1,12 @@
 # PDF Editor — changelog
 
+## 0.1.5 — 2026-09-09
+
+Fixes the in-app updater itself: the app could still be closing when the
+installer tried to replace its files, and the update would silently do
+nothing — no error, just no update. The app now closes immediately once the
+installer starts, so this can't happen.
+
 ## 0.1.4 — 2026-09-09
 
 The update check now runs every time you open the app, not just once a day —
