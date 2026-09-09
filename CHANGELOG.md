@@ -1,5 +1,20 @@
 # PDF Editor — changelog
 
+## 0.1.3 — 2026-09-09
+
+**Smoother updates.** The "update available" prompt now comes forward on its
+own instead of waiting behind the window, and a small progress window shows
+each step — downloading (with a percentage), verifying, then restarting — so
+a download is never a blank wait.
+
+**Send feedback.** A new option in the About dialog (bug / idea / comment) —
+report something without leaving the app. Your version is attached
+automatically; nothing else about your files or work is sent.
+
+Under the hood: the startup update check now carries a random ID so active
+installs can be counted (no personal data). See the privacy note on
+unsubbedware.com/about.
+
 ## 0.1.1 — 2026-09-07
 
 Adds an About dialog — reach it from the version chip in the top-right corner
