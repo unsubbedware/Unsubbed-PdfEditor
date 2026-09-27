@@ -1,5 +1,15 @@
 # PDF Editor — changelog
 
+## 0.1.8 — 2026-09-27
+
+The startup "Update available" check now fires as soon as the window is
+actually ready, instead of a flat 3-second wait regardless of how fast it
+loaded — the popup should appear noticeably sooner.
+
+The installer now shows the licence agreement, and installs it alongside
+third-party notices (THIRD-PARTY-NOTICES.txt) listing the open-source
+components the app includes and their licences.
+
 ## 0.1.7 — 2026-09-09
 
 Reverts the background color from the last release — that was a deliberate
